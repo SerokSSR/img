@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta itemprop="name" content="SerokSSR">
+    <meta itemprop="image" content="https://cdn.jsdelivr.net/gh/SerokSSR/img/share.jpg">
+    <meta name="description" itemprop="description" content="鳳兮鳳兮归故乡，遨游四海求其凰。">
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/SerokSSR/img/favicon.ico">
+    <title>晨汐 - Chen Tsi</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/xiaokang.me@v1.1.1/www/style.min.css">
+    <!-- <link rel="stylesheet" href="./style.css"> --></head>
+  
+  <body>
+    <div id="bg">
+      <div class="backstretch"></div>
+    </div>
+    <div class="container">
+      <header id="header">
+        <a href="#/" class="title router-link-active"> <b>S</b>erok <b>S</b>S<b>R</b> = <b>S</b>erok <b>S</b>uper <b>R</b>are</a>
+        <span class="subtitle">鳳兮鳳兮归故乡，遨游四海求其凰。</span></header>
+      <div data-v-2cd26717="" class="page">
+        <div data-v-2cd26717="" class="quote">
+          <i class="icon icon-quote-left"></i>
+          <div data-v-2cd26717="" class="markdown">
+            <p class="quote-content">loading....</p></div>
+          <i class="icon icon-quote-right"></i>
+        </div>
+        <div data-v-2cd26717="" class="segment" style="border-color:#f596aa">
+            <div class="label" style="color:#f596aa">
+              <span>关于</span></div>
+            <div data-v-2cd26717="" class="markdown">
+                <p>这里是 <strong>晨汐 Chen Tsi</strong> 的新主页ヾ(≧▽≦*)o</p>
+                <p>博客主站：<a href="https://snow.js.org">Click Here</a></p>
+                <p>Volantis 主题分站：<a href="https://atdawn.tk/">Click Here</a></p>
+                <p>洛谷主页：<a href="https://www.luogu.com.cn/user/125032">Click Here</a></p>
+            </div>
+        </div>
+        <div data-v-2cd26717="" class="content">
+          <div data-v-2cd26717="" class="contact">
+            <a data-v-2cd26717="" href="https://snow.js.org/" rel="noopener noreferrer" target="_blank">
+              <img data-v-2cd26717="" alt="" src="https://ae01.alicdn.com/kf/H8086e5cab3c543c5ba3669fbdb6fdf82r.jpg"></a>
+            <a data-v-2cd26717="" href="https://github.com/SerokSSR" rel="noopener noreferrer" target="_blank">
+              <img data-v-2cd26717="" alt="" src="https://ae04.alicdn.com/kf/Hbb03e51fbd8141cb96c771e1af4f26efu.jpg"></a>
+            <a data-v-2cd26717="" href="https://snow.js.org/friends/" rel="noopener noreferrer" target="_blank">
+              <img data-v-2cd26717="" alt="" src="https://ae02.alicdn.com/kf/H2ff78636cc5d42418fe73287261ae5dcr.jpg"></a>
+            <a data-v-2cd26717="" href="https://www.zhihu.com/people/chen-xi-70-38-23/" rel="noopener noreferrer" target="_blank">
+              <img data-v-2cd26717="" alt="" src="https://ae04.alicdn.com/kf/H38052f9f432c4ba5985030acf1e7a671o.jpg"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.17/jquery.backstretch.min.js"></script>
+    <script>(function() {
+        var t = ["https://cdn.jsdelivr.net/gh/blogimg/HexoStaticFile2@latest/2020/07/07/9a5c988213ca9d8c151505b8ff1589d6.png", "https://cdn.jsdelivr.net/gh/blogimg/HexoStaticFile2@latest/2020/07/07/e8ebd9895a0669697b37b494edf257a9.png", "https://cdn.jsdelivr.net/gh/blogimg/HexoStaticFile2@latest/2020/07/07/44277deeb80a9a2e0c03cf66162fafd2.png", "https://cdn.jsdelivr.net/gh/blogimg/HexoStaticFile2@latest/2020/07/07/fdfd802cd4c1bc145ccaeed5e6646d1a.png", "https://cdn.jsdelivr.net/gh/blogimg/HexoStaticFile2@latest/2020/07/07/65f8f25626db5145382809a759ed1bf7.png", "https://cdn.jsdelivr.net/gh/blogimg/HexoStaticFile2@latest/2020/07/07/3f4980382968169c4c48c95523152811.png", "https://cdn.jsdelivr.net/gh/blogimg/HexoStaticFile2@latest/2020/07/07/fa770c6bfb309de98476fa7ccf406097.png", "https://cdn.jsdelivr.net/gh/blogimg/HexoStaticFile2@latest/2020/07/07/bb71da4d1b0c47f71a130ff93270e910.png", "https://cdn.jsdelivr.net/gh/blogimg/HexoStaticFile2@latest/2020/07/07/21a777cbd5905b2787ad6b82c86791ca.png"];
+        window.$("#bg").backstretch(t, {
+          duration: 1e4,
+          alignY: 0,
+          transition: "fade",
+          transitionDuration: 1e3
+        }),
+        $(document).ready(function() {
+          $.getJSON("https://v1.hitokoto.cn/?a=g&encode=json",
+          function(t) {
+            var e = "",
+            i = "";
+            e = t.hitokoto,
+            i = t.from,
+            $(".quote-content").html("「 " + e + " 」——" + i)
+          })()
+        })
+      })()</script>
+  </body>
+
+</html>

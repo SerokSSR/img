@@ -1,0 +1,277 @@
+@font-face {
+    font-family: 'sleek';
+    src: url('https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/sleek.woff2');
+}
+
+
+/* 评论框  */
+
+.vwrap {
+    box-shadow: 2px 2px 5px #bbb;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 30px;
+    margin: 30px 0px 30px 0px;
+}
+
+
+/* 提交按钮 */
+
+#vcomment button {
+    padding: 0.3rem 0.8rem;
+    border-color: #fff;
+    background-color: #e58a8a;
+    color: #fff;
+    font-size: 0.7rem;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+/* 批量区的代码块 */
+
+.v[data-class=v] code {
+    color: #c7254e;
+    background-color: #F9F2F4;
+}
+
+
+/* 友链 */
+
+
+/* .flink#article-container .flink-list {
+    overflow: auto;
+    padding: 10px 10px 0;
+    text-align: inherit;
+} */
+
+
+/* header背景透明 */
+
+#page-header {
+    background-color: transparent;
+}
+
+
+/* 页脚透明 */
+
+#footer {
+    background: transparent;
+}
+
+
+/* 设置评论框 */
+
+.vcard {
+    box-shadow: 2px 2px 5px #bbb;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 30px;
+    margin: 30px 0px 0px 0px;
+}
+
+
+/* 取消回复聊天框 */
+
+.vquote .vcard {
+    box-shadow: 2px 2px 5px transparent;
+    background: rgba(255, 255, 255, 0.0);
+    padding: 0px;
+}
+
+
+/* a(链接)标签的默认颜色 */
+
+
+/* 宽度大于800小于9999执行 */
+
+
+/* @media only screen and (min-width: 800px) and (max-width: 9999px) {
+    
+    #article-container a {
+        color: #00c4b6;
+        display: inline-block;
+        position: relative;
+    }
+} */
+
+
+/* 鼠标悬停时的颜色 */
+
+
+/* #article-container a:hover {
+    color: #e58a8a;
+    text-decoration: none;
+} */
+
+
+/* 鼠标悬浮时，下划线从中间向两边延伸 */
+
+
+/* #article-container a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+} */
+
+
+/* 鼠标移开后，下划线从两边向中间消失 */
+
+
+/* #article-container a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #e58a8a;
+    transform-origin: bottom center;
+    transition: transform 0.5s ease-out;
+} */
+
+
+/*Lete个人博客颜色修改*/
+
+#page-header #site_title {
+    color: #80bdab;
+}
+
+
+/*页脚a标签字体颜色*/
+
+#footer-wrap a {
+    color: #00c4b6;
+}
+
+
+/*修复添加up酱后图标上移的bug*/
+
+.fas {
+    line-height: 2;
+}
+
+
+/*页脚自定义字段字体颜色*/
+
+.footer_custom_text {
+    color: #00c4b6;
+}
+
+
+/*a标签颜色*/
+
+a {
+    color: #00c4b6;
+}
+
+
+/*头部文字颜色*/
+
+#nav a {
+    color: #f9f2f4;
+}
+
+
+/*文章透明*/
+
+.layout_post>#post {
+    background: rgba(255, 255, 255, .9);
+}
+
+
+/*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
+
+@media screen and (max-width: 800px) {
+    #aside_content div:not(:last-child) {
+        display: none;
+        font-size: 13px;
+    }
+}
+
+
+/* 鼠标图标 */
+
+body {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/Jkll8I.png), auto;
+}
+
+
+/*a标签*/
+
+a:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
+
+/*按钮*/
+
+button:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
+
+/*i标签*/
+
+i:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
+
+/*up酱*/
+
+#upj:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
+
+/*页脚a标签*/
+
+#footer-wrap a:hover {
+    text-decoration: none;
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
+
+/*分页器*/
+
+#pagination .page-number:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
+.space {
+    color: #00c4b6;
+}
+
+
+/*头部的导航栏*/
+
+#nav .site-page:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
+
+/* 滚动条 */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e58a8a;
+    background-image: -webkit-linear-gradient( 45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+::-moz-selection {
+    color: #fff;
+    background-color: #e58a8a;
+}
